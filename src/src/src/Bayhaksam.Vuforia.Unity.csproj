@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Bayhaksam.Vuforia.Unity API</Description>
+    <Version>0.0.1</Version>
+    <Copyright>Copyright © 2015 - 2018 Bayhaksam. All rights reserved.</Copyright>
+    <PackageLicenseUrl>https://github.com/bayhaksam/Bayhaksam.Vuforia.Unity/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/bayhaksam/Bayhaksam.Vuforia.Unity</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bayhaksam/Bayhaksam.Vuforia.Unity</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\netstandard2.0\Bayhaksam.Vuforia.Unity.xml</DocumentationFile>
+    <OutputPath>bin\Debug\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
