@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{8B07E81A-6F9F-4E82-AAFF-870039B9ED19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9C0A2EB7-90DA-41CC-AF1D-C0C2052AE0F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bayhaksam.Vuforia.Unity", "src\src\Bayhaksam.Vuforia.Unity.csproj", "{64EBF80C-EF6B-4CE2-9BED-E9640978AC5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unity", "Unity", "{F9C94863-2D55-4354-9820-3156E2384EF4}"
+	ProjectSection(SolutionItems) = preProject
+		UnityEditor.dll = UnityEditor.dll
+		UnityEngine.dll = UnityEngine.dll
+		UnityEngine.UI.dll = UnityEngine.UI.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vuforia", "Vuforia", "{BF90F1CE-4BE9-40AC-A16A-C5CD62A9F332}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unity", "Unity", "{442CCDC1-90C7-4767-8CB5-E1DB83490F51}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Vuforia\Unity\Vuforia.UnityExtensions.dll = lib\Vuforia\Unity\Vuforia.UnityExtensions.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64EBF80C-EF6B-4CE2-9BED-E9640978AC5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EBF80C-EF6B-4CE2-9BED-E9640978AC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EBF80C-EF6B-4CE2-9BED-E9640978AC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EBF80C-EF6B-4CE2-9BED-E9640978AC5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64EBF80C-EF6B-4CE2-9BED-E9640978AC5F} = {9C0A2EB7-90DA-41CC-AF1D-C0C2052AE0F0}
+		{F9C94863-2D55-4354-9820-3156E2384EF4} = {8B07E81A-6F9F-4E82-AAFF-870039B9ED19}
+		{BF90F1CE-4BE9-40AC-A16A-C5CD62A9F332} = {8B07E81A-6F9F-4E82-AAFF-870039B9ED19}
+		{442CCDC1-90C7-4767-8CB5-E1DB83490F51} = {BF90F1CE-4BE9-40AC-A16A-C5CD62A9F332}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7634AC49-3FBE-4398-9EF2-C62DD4A0759A}
+	EndGlobalSection
+EndGlobal
